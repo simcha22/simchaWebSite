@@ -309,7 +309,7 @@ code, pre{
         justify-self: center;
         margin: auto;
         animation: slideInFromBottom 1s ease-in;
-
+        width: 350px;
     }
 
     .cli .grid>*:first-child{
