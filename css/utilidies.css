@@ -4,7 +4,12 @@
     overflow: auto;
     padding: 0 40px;
 }
-
+.container-ln{
+    max-width: 1300px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
 .card {
     background-color: #fff;
     color: #333;
