@@ -97,7 +97,10 @@ code, pre{
 .showcase p {
     margin: 20px 0;
 }
-
+.links-btns{
+    display: flex;
+    justify-content: space-between;
+}
 .showcase .grid{
     overflow: visible;
     grid-template-columns: 55% 45%;
@@ -332,6 +335,10 @@ code, pre{
     {
         grid-column: 1;
     }
+    .links-btns{
+        display: grid;
+    justify-content: center;
+    }
 }
 
 @media(max-width: 500px){
@@ -347,4 +354,12 @@ code, pre{
         padding: 10px;
         background-color: rgba(0,0,0,0.1);
     }
+
+    .links-btns{
+        display: grid;
+    justify-content: center;
+    }
+    .links-btns a{
+        margin-bottom: 5px;
+     }
 }
